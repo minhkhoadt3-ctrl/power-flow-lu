@@ -42,10 +42,10 @@ export const styles: CSSResultGroup = css`
 		fill: #f3b3ca;
 	}
 	.st3 {
-		font-size: 12px;
+		font-size: 14px;
 	}
 	.st4 {
-		font-size: 15px;
+		font-size: 17px;
 	}
 	.st5 {
 		fill: #969696;
@@ -63,7 +63,7 @@ export const styles: CSSResultGroup = css`
 		fill: #959595;
 	}
 	.st10 {
-		font-size: 17px;
+		font-size: 19px;
 	}
 	.st11 {
 		fill: transparent;
@@ -72,13 +72,13 @@ export const styles: CSSResultGroup = css`
 		display: none;
 	}
 	.st13 {
-		font-size: 23px;
+		font-size: 25px;
 	}
 	.st14 {
-		font-size: 13px;
+		font-size: 15px;
 	}
 	.remaining-energy {
-		font-size: 12px;
+		font-size: 14px;
 	}
 `;
 
