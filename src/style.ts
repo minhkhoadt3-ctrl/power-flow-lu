@@ -12,7 +12,7 @@ export const styles: CSSResultGroup = css`
 	}
 
 	.card {
-		border-radius: var(--ha-card-border-radius, 11px);
+		border-radius: var(--ha-card-border-radius, 13px);
 		box-shadow: var(
 			--ha-card-box-shadow,
 			2px 2px 2px 3px rgba(0, 0, 0, 0.12),
