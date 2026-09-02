@@ -42,7 +42,7 @@ export const styles: CSSResultGroup = css`
 		fill: #f3b3ca;
 	}
 	.st3 {
-		font-size: 14px;
+		font-size: 16px;
 	}
 	.st4 {
 		font-size: 17px;
@@ -75,10 +75,10 @@ export const styles: CSSResultGroup = css`
 		font-size: 25px;
 	}
 	.st14 {
-		font-size: 15px;
+		font-size: 16px;
 	}
 	.remaining-energy {
-		font-size: 14px;
+		font-size: 16px;
 	}
 `;
 
