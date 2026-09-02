@@ -10,7 +10,7 @@ Minimum Configuration (No Solar, No Battery)
 .. code-block:: yaml
   :linenos:
 
-  type: custom:sunsynk-power-flow-card
+  type: custom:power-flow-lu
   cardstyle: full
   show_solar: false
   show_battery: false
@@ -30,7 +30,7 @@ Minimum Configuration (Solar)
 .. code-block:: yaml
   :linenos:
 
-  type: custom:sunsynk-power-flow-card
+  type: custom:power-flow-lu
   cardstyle: full
   solar:
     mppts: 1
@@ -53,7 +53,7 @@ Minimal Configuration (No Solar)
 .. code-block:: yaml
   :linenos:
 
-  type: custom:sunsynk-power-flow-card
+  type: custom:power-flow-lu
   cardstyle: full
   show_solar: false
   battery:
@@ -80,7 +80,7 @@ Minimal Configuration (No Battery)
 .. code-block:: yaml
   :linenos:
 
-  type: custom:sunsynk-power-flow-card
+  type: custom:power-flow-lu
   cardstyle: full
   show_battery: false
   entities:
@@ -104,7 +104,7 @@ Minimal Configuration (Solar and Battery)
 .. code-block:: yaml
   :linenos:
 
-  type: custom:sunsynk-power-flow-card
+  type: custom:power-flow-lu
   cardstyle: full
   solar:
     mppts: 2
@@ -140,7 +140,7 @@ Minimal Configuration (Solar + Daily Totals)
 .. code-block:: yaml
   :linenos:
 
-  type: custom:sunsynk-power-flow-card
+  type: custom:power-flow-lu
   cardstyle: full
   solar:
     mppts: 2
@@ -185,7 +185,7 @@ Full Configuration (All Options)
 .. code-block:: yaml
   :linenos:
   
-  type: custom:sunsynk-power-flow-card
+  type: custom:power-flow-lu
   cardstyle: full
   large_font: false
   title: Sunsynk Inverter
@@ -382,7 +382,7 @@ Deye SUN-10K-SG02LP1-EU-AM3 (Solar Assistant)
 .. code-block:: yaml
   :linenos:
 
-  type: custom:sunsynk-power-flow-card
+  type: custom:power-flow-lu
   cardstyle: full
   title: Deye SUN-10k-SG02LP1-EU-AM3
   title_colour: grey

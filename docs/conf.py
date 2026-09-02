@@ -7,7 +7,7 @@ import json
 
 sys.path.insert(0, os.path.abspath(".."))
 
-project = "sunsynk-power-flow-card"
+project = "power-flow-lu"
 slug = re.sub(r"\W+", "-", project.lower())
 copyright = "2024, slipx06"
 author = "slipx06"

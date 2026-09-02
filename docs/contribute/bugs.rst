@@ -22,7 +22,7 @@ us resolve issues faster.
 Before Submitting A Bug Report
 ******************************
 
-* **Perform a** `cursory search <https://github.com/slipx06/sunsynk-power-flow-card/issues?q=is%3Aissue>`_
+* **Perform a** `cursory search <https://github.com/slipx06/power-flow-lu/issues?q=is%3Aissue>`_
   to see if the problem has already been reported. If it has **and the issue is still open**, add a comment to
   the existing issue instead of opening a new one.
 
@@ -32,7 +32,7 @@ How do i submit a bug report?
 
 Bugs are tracked as `GitHub issues <https://guides.github.com/features/issues/>`_.
 After you've determined this is not a configuration issue, create an issue on github
-and provide the following information by filling in `the template <https://github.com/slipx06/sunsynk-power-flow-card/issues/new?assignees=&labels=type%2Fbug&projects=&template=bug_report.yml>`_.
+and provide the following information by filling in `the template <https://github.com/slipx06/power-flow-lu/issues/new?assignees=&labels=type%2Fbug&projects=&template=bug_report.yml>`_.
 
 Explain the problem and include additional details to help maintainers reproduce the problem:
 

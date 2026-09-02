@@ -9,7 +9,7 @@ Example 1 - Integration via https://github.com/nathanmarlor/foxess_modbus
 .. code-block:: yaml
   :linenos:
 
-    type: custom:sunsynk-power-flow-card
+    type: custom:power-flow-lu
     cardstyle: full
     card_width: 80%
     show_solar: true

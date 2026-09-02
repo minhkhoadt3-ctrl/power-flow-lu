@@ -9,7 +9,7 @@ Example 1
 .. code-block:: yaml
   :linenos:
 
-    type: custom:sunsynk-power-flow-card
+    type: custom:power-flow-lu
     cardstyle: compact
     show_solar: true
     show_grid: true

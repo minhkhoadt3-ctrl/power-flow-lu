@@ -9,12 +9,12 @@ code reviewed and accepted.
 Setup Repository
 ****************
 
-* Fork the repo in `github <https://github.com/slipx06/sunsynk-power-flow-card>`_
+* Fork the repo in `github <https://github.com/slipx06/power-flow-lu>`_
 * Clone the project to your development machine
 
 .. code-block:: bash
 
-    git clone https://github.com/your-username/sunsynk-power-flow-card.git
+    git clone https://github.com/your-username/power-flow-lu.git
 
 *******************
 Create Topic Branch
@@ -28,7 +28,7 @@ from the main repository:
 
 .. code-block:: bash
 
-      git remote add upstream https://github.com/slipx06/sunsynk-power-flow-card
+      git remote add upstream https://github.com/slipx06/power-flow-lu
 
 
 Checkout the master branch and pull the latest upstream version:
@@ -96,7 +96,7 @@ In the context of semantic versioning, the following should apply:
   functionality in a backwards compatible manner.
 * **Patch** - A change that resolves a specific bug.
 
-All changes are tracked in the `release notes <https://github.com/slipx06/sunsynk-power-flow-card/releases>`_
+All changes are tracked in the `release notes <https://github.com/slipx06/power-flow-lu/releases>`_
 
 
 **************

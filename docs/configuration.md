@@ -9,7 +9,7 @@ The card can be configured through the following attributes:
 
 | Attribute              | Requirement  | Default                                             | Description                                                                                                                                                                                        |
 | ---------------------- | ------------ | --------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| type:                  | **Required** | `custom:sunsynk-power-flow-card`                    | The custom card.                                                                                                                                                                                   |
+| type:                  | **Required** | `custom:power-flow-lu`                    | The custom card.                                                                                                                                                                                   |
 | cardstyle:             | **Required** | `lite`                                              | Selects the card layout that is used `compact`, `lite` or `full`.                                                                                                                                  |
 | large_font:            | Optional     | `false`                                             | Increases font size of sensor data.                                                                                                                                                                |
 | wide:                  | Optional     | `false`                                             | Display the card content for wide screen format (16:9).                                                                                                                                            |
@@ -247,7 +247,7 @@ It is important that your sensors read the expected Modbus register value. If yo
 set it to none i.e. `day_pv_energy_108: none`. This will hide the sensor data from the card. To display a placeholder
 with a default value of `0` set it to `zero` or any other value i.e. `solarday_108: zero`.
 
-See the [WIKI](https://github.com/slipx06/sunsynk-power-flow-card/wiki/Sensor-Mappings) for more information on sensor
+See the [WIKI](https://github.com/slipx06/power-flow-lu/wiki/Sensor-Mappings) for more information on sensor
 mappings if using other integration methods.
 
 #### Solar Entities

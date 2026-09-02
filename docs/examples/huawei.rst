@@ -3,9 +3,9 @@
 ##################
 
 .. note::
-   Please report all feedback or Issues to the Discussion (Support Sections) of: https://github.com/Roving-Ronin/sunsynk-power-flow-card.
+   Please report all feedback or Issues to the Discussion (Support Sections) of: https://github.com/Roving-Ronin/power-flow-lu.
 
-To use the Sunsynk card with Huawei Solar (or iStore in Australia) you need to copy the huawei_derived_sensors.yaml and sunsynk_card_derived_sensors.yaml files to your /homeassistant/packages directory. Upon restarting Home Assistant this will create all the required derived sensors, based upon the baseline sensors from the WLCRS integration, needed to populate the Sunsynk card. In addition to this, you will need to find an electricity_costs_xxx.yaml file that matches your electricity providers tariff plan, or is similiar and you can customise the 'Electrity - Price', 'Electricity - FIT' and 'Energy Meter' sections to reflect your rate plan costs and usage period(s), all these files are available from: https://github.com/slipx06/sunsynk-power-flow-card/tree/master/docs/examples/huawei_packages.
+To use the Sunsynk card with Huawei Solar (or iStore in Australia) you need to copy the huawei_derived_sensors.yaml and sunsynk_card_derived_sensors.yaml files to your /homeassistant/packages directory. Upon restarting Home Assistant this will create all the required derived sensors, based upon the baseline sensors from the WLCRS integration, needed to populate the Sunsynk card. In addition to this, you will need to find an electricity_costs_xxx.yaml file that matches your electricity providers tariff plan, or is similiar and you can customise the 'Electrity - Price', 'Electricity - FIT' and 'Energy Meter' sections to reflect your rate plan costs and usage period(s), all these files are available from: https://github.com/slipx06/power-flow-lu/tree/master/docs/examples/huawei_packages.
 
 .. Required Sensor Groups::
 
@@ -96,7 +96,7 @@ Example 1 - 1 x L1 1phase inverter with a 15kWh LUNA ESS battery - 2 PV strings 
 .. code-block:: yaml
   :linenos:
 
-  type: custom:sunsynk-power-flow-card
+  type: custom:power-flow-lu
   cardstyle: full
   large_font: false
   title: Huawei - Power Monitor
@@ -260,7 +260,7 @@ Example 2 - 2 x L1 1phase inverter with a 15kWh LUNA ESS battery - 4 PV strings 
 .. code-block:: yaml
   :linenos:
 
-  type: custom:sunsynk-power-flow-card
+  type: custom:power-flow-lu
   cardstyle: full
   large_font: false
   title: Huawei - Power Monitor
@@ -433,7 +433,7 @@ Example 3 - 1 x M1 3phase inverter with a 15kWh LUNA ESS battery - 2 PV strings 
 .. code-block:: yaml
   :linenos:
 
-  type: custom:sunsynk-power-flow-card
+  type: custom:power-flow-lu
   cardstyle: full
   large_font: false
   title: Huawei - Power Monitor
@@ -606,7 +606,7 @@ Example 4 - 1 x M1 3phase inverters with 2 x 15kWh LUNA ESS batteries - 2 PV str
 .. code-block:: yaml
   :linenos:
 
-  type: custom:sunsynk-power-flow-card
+  type: custom:power-flow-lu
   cardstyle: full
   large_font: false
   title: Huawei - Power Monitor
@@ -780,7 +780,7 @@ Example 5 - 2 x M1 3phase inverters with a 15kWh LUNA ESS battery - 4 PV strings
 .. code-block:: yaml
   :linenos:
 
-  type: custom:sunsynk-power-flow-card
+  type: custom:power-flow-lu
   cardstyle: full
   large_font: false
   title: Huawei - Power Monitor

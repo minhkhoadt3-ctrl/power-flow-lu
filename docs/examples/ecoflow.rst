@@ -49,7 +49,7 @@ Example with 8 kW inverter and 5 kWh battery
 .. code-block:: yaml
   :linenos:
 
-  type: custom:sunsynk-power-flow-card
+  type: custom:power-flow-lu
   cardstyle: lite
   show_solar: true
   battery:
