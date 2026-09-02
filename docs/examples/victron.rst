@@ -14,7 +14,7 @@ Integration via https://github.com/sfstar/hass-victron
 .. code-block:: yaml
   :linenos:
 
-  type: custom:power-flow-lu
+  type: custom:sunsynk-power-flow-card
   cardstyle: full
   large_font: false
   title: Victron - Power Monitor

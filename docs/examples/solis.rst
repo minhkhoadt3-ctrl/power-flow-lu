@@ -9,7 +9,7 @@ Example 1 - Integration via https://github.com/wills106/homeassistant-solax-modb
 .. code-block:: yaml
   :linenos:
 
-    type: custom:power-flow-lu
+    type: custom:sunsynk-power-flow-card
     cardstyle: lite
     show_solar: true
     large_font: true
@@ -68,7 +68,7 @@ Example 2 (Solis S6 or S2-WL-ST) - Integration via https://github.com/Pho3niX90/
 .. code-block:: yaml
   :linenos:
 
-    type: custom:power-flow-lu
+    type: custom:sunsynk-power-flow-card
     view_layout:
       grid-area: flow
     cardstyle: lite
@@ -149,7 +149,7 @@ Example 3 (Solis S6 or S2-WL-ST) - Integration via https://github.com/fboundy/ha
 .. code-block:: yaml
   :linenos:
 
-    type: custom:power-flow-lu
+    type: custom:sunsynk-power-flow-card
     cardstyle: full
     show_solar: true
     inverter:

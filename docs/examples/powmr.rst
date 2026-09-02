@@ -11,7 +11,7 @@ Example - PowMr OW-HVM2.0H-12V inverter with 2.4kW Battery, 1.8kW Solar and Grid
 .. code-block:: yaml
   :linenos:
 
-  type: custom:power-flow-lu
+  type: custom:sunsynk-power-flow-card
   cardstyle: lite
   large_font: false
   title: PowMr Inverter - Power Monitor

@@ -1,15 +1,15 @@
-# Power Flow LU
+# Sunsynk Power Flow Card
 
-An animated Home Assistant card to emulate the power flow that's shown on the Sunsynk Inverter screen. You can use this to display data from many inverters e.g. Sunsynk, Deye, Solis, Lux, FoxESS, Goodwe, Huawei etc as long as you have the required sensor data. See the [wiki](https://github.com/slipx06/power-flow-lu/wiki) for integration methods and examples.
+An animated Home Assistant card to emulate the power flow that's shown on the Sunsynk Inverter screen. You can use this to display data from many inverters e.g. Sunsynk, Deye, Solis, Lux, FoxESS, Goodwe, Huawei etc as long as you have the required sensor data. See the [wiki](https://github.com/slipx06/sunsynk-power-flow-card/wiki) for integration methods and examples.
 
-[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=slipx06&repository=power-flow-lu&category=plugin)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/slipx06/power-flow-lu?style=for-the-badge)
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=slipx06&repository=sunsynk-power-flow-card&category=plugin)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/slipx06/sunsynk-power-flow-card?style=for-the-badge)
 [![Community Forum](https://img.shields.io/badge/community-forum-brightgreen.svg?style=for-the-badge)](https://community.home-assistant.io/t/sunsynk-deye-inverter-power-flow-card/562933/1)
 <a href="https://www.buymeacoffee.com/slipx" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="28" width="120"></a>
 
 ## Documentation
 
-Refer to [https://slipx06.github.io/power-flow-lu/index.html](https://slipx06.github.io/power-flow-lu/index.html)
+Refer to [https://slipx06.github.io/sunsynk-power-flow-card/index.html](https://slipx06.github.io/sunsynk-power-flow-card/index.html)
 
 ## Features
 
@@ -35,20 +35,20 @@ Refer to [https://slipx06.github.io/power-flow-lu/index.html](https://slipx06.gi
 
 _Compact Version_
 
-![image](https://github.com/slipx06/power-flow-lu/assets/7227275/b1e437a8-d1f7-4d6a-a549-1cc908950002)
-![image](https://github.com/slipx06/power-flow-lu/assets/7227275/49c499c5-9d2b-43e7-8f5d-5b9da5e07fb9)
+![image](https://github.com/slipx06/sunsynk-power-flow-card/assets/7227275/b1e437a8-d1f7-4d6a-a549-1cc908950002)
+![image](https://github.com/slipx06/sunsynk-power-flow-card/assets/7227275/49c499c5-9d2b-43e7-8f5d-5b9da5e07fb9)
 
 _Lite Version_
 
-![image](https://github.com/slipx06/power-flow-lu/assets/7227275/d25c621c-2607-445f-b3a3-865930387a05)
-![image](https://github.com/slipx06/power-flow-lu/assets/7227275/5a9078ee-7375-4f1c-affa-6fe291d62f8a)
-![image](https://github.com/slipx06/power-flow-lu/assets/7227275/73d6fae3-3e6b-4891-acc2-deb29156cd2d)
-![image](https://github.com/slipx06/power-flow-lu/assets/7227275/54ae290d-aa5c-428e-8a00-2a75e11c2de8)
+![image](https://github.com/slipx06/sunsynk-power-flow-card/assets/7227275/d25c621c-2607-445f-b3a3-865930387a05)
+![image](https://github.com/slipx06/sunsynk-power-flow-card/assets/7227275/5a9078ee-7375-4f1c-affa-6fe291d62f8a)
+![image](https://github.com/slipx06/sunsynk-power-flow-card/assets/7227275/73d6fae3-3e6b-4891-acc2-deb29156cd2d)
+![image](https://github.com/slipx06/sunsynk-power-flow-card/assets/7227275/54ae290d-aa5c-428e-8a00-2a75e11c2de8)
 
 _Full Version_
 
-![image](https://github.com/slipx06/power-flow-lu/assets/7227275/fdcce257-e7b5-4874-926c-17e911e83eba)
-![image](https://github.com/slipx06/power-flow-lu/assets/7227275/12af5b02-c456-4685-a50f-bd0044b9e9b0)
+![image](https://github.com/slipx06/sunsynk-power-flow-card/assets/7227275/fdcce257-e7b5-4874-926c-17e911e83eba)
+![image](https://github.com/slipx06/sunsynk-power-flow-card/assets/7227275/12af5b02-c456-4685-a50f-bd0044b9e9b0)
 
 _Wide Full Version (2 batteries)_
 
@@ -71,14 +71,14 @@ The card can be installed via HACS (recommended) or manually.
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-blue.svg)](https://github.com/custom-components/hacs)
 
 1. Install HACS.
-2. Search & Install power-flow-lu or click the button below.
+2. Search & Install sunsynk-power-flow-card or click the button below.
 
-[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=slipx06&repository=power-flow-lu&category=plugin)
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=slipx06&repository=sunsynk-power-flow-card&category=plugin)
 
 ### Manual Installation
 
-1. Create a new directory under `www` and name it `power-flow-lu` e.g `www/power-flow-lu/`.
-2. Copy the `power-flow-lu.js` into the directory.
+1. Create a new directory under `www` and name it `sunsynk-power-flow-card` e.g `www/sunsynk-power-flow-card/`.
+2. Copy the `sunsynk-power-flow-card.js` into the directory.
 3. Add the resource to your Dashboard. You can append the filename with a `?ver=x` and increment x each time you download a new version to force a reload and avoid using a cached version. It is also a good idea to clear your browser cache.
 
 ![image](https://user-images.githubusercontent.com/7227275/235441241-93ab0c7d-341d-428f-8ca8-60ec932dde2d.png)

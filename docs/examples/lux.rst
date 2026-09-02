@@ -9,7 +9,7 @@ Example 1
 .. code-block:: yaml
   :linenos:
 
-  type: custom:power-flow-lu
+  type: custom:sunsynk-power-flow-card
   cardstyle: lite
   show_solar: true
   inverter:
@@ -73,7 +73,7 @@ Example 2 using the lxp-bridge integration (https://github.com/celsworth/lxp-bri
 .. code-block:: yaml
   :linenos:
 
-  type: custom:power-flow-lu
+  type: custom:sunsynk-power-flow-card
   cardstyle: lite
   show_solar: true
   inverter:

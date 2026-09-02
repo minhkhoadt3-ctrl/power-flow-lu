@@ -9,7 +9,7 @@ Example 1
 .. code-block:: yaml
   :linenos:
 
-  type: custom:power-flow-lu
+  type: custom:sunsynk-power-flow-card
   cardstyle: lite
   large_font: true
   title: Goodwe
